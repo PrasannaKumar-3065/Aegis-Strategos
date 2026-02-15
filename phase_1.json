@@ -1,0 +1,1151 @@
+[
+{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I have 2 monitors connected.\nAssistant: Nice, dual monitors really help with productivity.\nUser: Helps multitasking a lot when coding.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How many monitors do I use?",
+"expected_output": {
+"thought": "User mentioned monitor count and reason earlier. Combine both.",
+"action": "None",
+"final_answer": "You use 2 monitors, and you mentioned that it helps you multitask better when you're coding."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I exercise 4 times a week.\nAssistant: That’s a solid routine, consistency really matters.\nUser: Mostly in the evenings after work.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How often do I exercise?",
+"expected_output": {
+"thought": "Frequency and time both present in history.",
+"action": "None",
+"final_answer": "You exercise 4 times a week, mostly in the evenings after work."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My server runs on port 9090.\nAssistant: Got it, that’s a common dev port.\nUser: I changed it from 8080 yesterday.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which port is my server running on?",
+"expected_output": {
+"thought": "Current port is 9090, mention change context.",
+"action": "None",
+"final_answer": "Your server is currently running on port 9090, which you mentioned you changed from 8080 yesterday."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My laptop has 32GB RAM.\nAssistant: That’s great for heavy workloads.\nUser: Especially useful for machine learning experiments.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How much RAM do I have?",
+"expected_output": {
+"thought": "RAM + usage context available.",
+"action": "None",
+"final_answer": "Your laptop has 32GB of RAM, which you said is especially useful for your machine learning experiments."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I wake up at 6:30 AM daily.\nAssistant: That’s an early start, nice discipline.\nUser: It gives me extra time before work.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "When do I wake up?",
+"expected_output": {
+"thought": "Time + motivation both present.",
+"action": "None",
+"final_answer": "You wake up at 6:30 AM daily, and you mentioned it gives you extra time before work."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My favorite programming language is Rust.\nAssistant: Rust is great for safety and performance.\nUser: I really like its memory safety features.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which language do I like most?",
+"expected_output": {
+"thought": "Language + reason available.",
+"action": "None",
+"final_answer": "Your favorite programming language is Rust, mainly because you like its memory safety features."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I bought headphones for $240.\nAssistant: That’s a premium range, hopefully worth it.\nUser: Yeah, I wanted good noise cancellation.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How much were my headphones?",
+"expected_output": {
+"thought": "Price + intention context.",
+"action": "None",
+"final_answer": "Your headphones cost $240, and you chose them mainly for good noise cancellation."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My bike is a CB350.\nAssistant: That’s a stylish bike.\nUser: I bought it last year after saving for months.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What bike do I own?",
+"expected_output": {
+"thought": "Bike model + purchase context.",
+"action": "None",
+"final_answer": "You own a CB350, which you mentioned you bought last year after saving for months."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My hometown is Jaipur.\nAssistant: That’s a beautiful city.\nUser: I try to visit every year during festivals.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Where is my hometown?",
+"expected_output": {
+"thought": "Location + visiting habit.",
+"action": "None",
+"final_answer": "Your hometown is Jaipur, and you mentioned you try to visit every year during festivals."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I drink coffee without sugar.\nAssistant: That’s quite a strong taste preference.\nUser: Yeah, I prefer the natural bitterness.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How do I take my coffee?",
+"expected_output": {
+"thought": "Preference + reasoning present.",
+"action": "None",
+"final_answer": "You take your coffee without sugar because you prefer the natural bitterness."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My GPU is an RTX 4070.\nAssistant: That’s powerful for most workloads.\nUser: I mainly use it for training models locally.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which GPU do I have?",
+"expected_output": {
+"thought": "GPU + usage context.",
+"action": "None",
+"final_answer": "You have an RTX 4070 GPU, which you mainly use for training models locally."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I keep backups in /mnt/storage.\nAssistant: Good practice, backups are important.\nUser: Especially after I lost data once.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Where are my backups stored?",
+"expected_output": {
+"thought": "Path + reason context.",
+"action": "None",
+"final_answer": "Your backups are stored in /mnt/storage, and you mentioned you started doing that after losing data once."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My meeting is at 3 PM.\nAssistant: Alright, I’ll remember that.\nUser: It’s with the product team.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "When is my meeting?",
+"expected_output": {
+"thought": "Time + participants context.",
+"action": "None",
+"final_answer": "Your meeting is at 3 PM, and it’s with the product team."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I sleep around midnight usually.\nAssistant: That’s fairly common.\nUser: But I’m trying to sleep earlier.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What time do I sleep?",
+"expected_output": {
+"thought": "Time + intention context.",
+"action": "None",
+"final_answer": "You usually sleep around midnight, though you mentioned you’re trying to sleep earlier."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My WiFi password is mangoTree88.\nAssistant: Okay, I’ll remember it.\nUser: It’s based on my childhood tree.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my WiFi password?",
+"expected_output": {
+"thought": "Password + meaning context.",
+"action": "None",
+"final_answer": "Your WiFi password is mangoTree88, which you said is based on your childhood tree."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I love traveling.\nAssistant: That’s exciting.\nUser: Especially mountains.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which country do I want to visit next?",
+"expected_output": {
+"thought": "No country mentioned in history.",
+"action": "None",
+"final_answer": "I don’t have enough information from our conversation to determine that."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My bank balance is private.\nAssistant: Understood, privacy is important.\nUser: I won’t share it here.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How much money do I have?",
+"expected_output": {
+"thought": "Information explicitly unavailable.",
+"action": "None",
+"final_answer": "You haven’t shared that information with me, so I can’t determine your balance."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My IP is 10.0.0.1.\nAssistant: Got it, that looks like a private network address.\nUser: Wait, typo, it's actually 10.0.0.5.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my IP?",
+"expected_output": {
+"thought": "Later correction overrides earlier value.",
+"action": "None",
+"final_answer": "Your IP is 10.0.0.5 — you corrected it after mentioning 10.0.0.1 initially."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Server port is 3000.\nAssistant: Okay, noted.\nUser: Sorry I changed it, now it's 3001.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which port am I using?",
+"expected_output": {
+"thought": "Use latest corrected value.",
+"action": "None",
+"final_answer": "You’re using port 3001 now, since you mentioned you changed it from 3000."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My username is admin_user.\nAssistant: Alright.\nUser: I'll share password later.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my password?",
+"expected_output": {
+"thought": "Only username present. Must refuse with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is admin_user, but you haven’t shared any password."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm using Python for this project.\nAssistant: Nice, Python is very versatile.\nUser: I hope it performs well.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this language slow?",
+"expected_output": {
+"thought": "Implicit reference 'this language' → Python.",
+"action": "None",
+"final_answer": "You’re referring to Python — it can be slower than compiled languages in some cases, but its ease of development often makes up for that depending on the task."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My database IP is 192.168.1.20.\nAssistant: Noted.\nUser: Actually scratch that, it's 192.168.1.25 now.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What IP should I connect to?",
+"expected_output": {
+"thought": "Use corrected IP.",
+"action": "None",
+"final_answer": "You should connect to 192.168.1.25, since you updated it from the earlier 192.168.1.20."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is john_dev.\nAssistant: Got it.\nUser: I forgot the password though.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Tell me my password.",
+"expected_output": {
+"thought": "Strict refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is john_dev, but there’s no password information provided."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm coding in Java.\nAssistant: Java is quite robust for large systems.\nUser: Deployment might be tricky though.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is it memory heavy?",
+"expected_output": {
+"thought": "Implicit 'it' refers to Java.",
+"action": "None",
+"final_answer": "You’re talking about Java — it can be more memory-heavy compared to some languages because of the JVM overhead, especially in smaller environments."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My API endpoint is api.dev.local.\nAssistant: Okay.\nUser: Wait I moved to staging, it's api.staging.local now.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which endpoint am I using?",
+"expected_output": {
+"thought": "Latest override.",
+"action": "None",
+"final_answer": "You’re using api.staging.local now, since you mentioned switching from api.dev.local."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm learning Go.\nAssistant: Go is great for concurrency.\nUser: I like its simplicity.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this good for servers?",
+"expected_output": {
+"thought": "Implicit reference to Go.",
+"action": "None",
+"final_answer": "Yes, you’re referring to Go — it’s actually very well suited for servers because of its concurrency model and performance characteristics."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is tester01.\nAssistant: Noted.\nUser: I think I set a strong password.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What password did I set?",
+"expected_output": {
+"thought": "Refuse with explicit evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is tester01, but there’s no password mentioned."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My local IP is 172.16.0.2.\nAssistant: That’s within private range.\nUser: Correction — it's 172.16.0.8.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What's my local IP?",
+"expected_output": {
+"thought": "Use corrected IP.",
+"action": "None",
+"final_answer": "Your local IP is 172.16.0.8, since you corrected the earlier value."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm using C++ for performance.\nAssistant: That makes sense.\nUser: Compilation takes time though.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this fast?",
+"expected_output": {
+"thought": "Implicit language reference.",
+"action": "None",
+"final_answer": "You’re referring to C++ — yes, it’s generally very fast since it compiles to native code, which is why it’s often chosen for performance-critical tasks."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is devops_admin.\nAssistant: Okay.\nUser: I’ll remember the password myself.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Do you know my password?",
+"expected_output": {
+"thought": "Strict refusal pattern.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is devops_admin, and there’s no password information provided."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My service runs at 127.0.0.1:5000.\nAssistant: Localhost setup noted.\nUser: Actually port changed to 5050.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Where is my service running?",
+"expected_output": {
+"thought": "Combine host + updated port.",
+"action": "None",
+"final_answer": "Your service is running at 127.0.0.1:5050, since you updated the port from 5000."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm writing scripts in Bash.\nAssistant: Bash is handy for automation.\nUser: Especially for deployment tasks.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is it good for automation?",
+"expected_output": {
+"thought": "Implicit 'it' refers to Bash.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Bash, and it’s particularly well suited for automation tasks like deployments, which you mentioned."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is alice.\nAssistant: Okay.\nUser: I use it everywhere.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my password then?",
+"expected_output": {
+"thought": "Refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is alice, but no password was provided."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My docker container name is web_app_v1.\nAssistant: Okay, that’s clear.\nUser: Actually I renamed it to web_app_prod.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my container called?",
+"expected_output": {
+"thought": "Use corrected name.",
+"action": "None",
+"final_answer": "Your container is called web_app_prod now, since you mentioned renaming it from web_app_v1."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm using Node.js for backend.\nAssistant: Nice, it's popular for APIs.\nUser: I like the async nature.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this good for real-time apps?",
+"expected_output": {
+"thought": "Implicit reference to Node.js.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Node.js, and its asynchronous model makes it particularly well suited for real-time applications."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is research_user.\nAssistant: Noted.\nUser: I’ll store the password securely myself.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Tell me my password.",
+"expected_output": {
+"thought": "Strict refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is research_user, but there’s no password information provided."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My Redis port is 6379.\nAssistant: That’s the default.\nUser: Wait I changed it to 6380.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which port is Redis running on?",
+"expected_output": {
+"thought": "Use updated port.",
+"action": "None",
+"final_answer": "Your Redis instance is running on port 6380 now, since you updated it from the default 6379."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm coding in Kotlin.\nAssistant: Kotlin is great for Android.\nUser: I enjoy its syntax a lot.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this modern?",
+"expected_output": {
+"thought": "Implicit language reference Kotlin.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Kotlin, which is considered a modern language with concise syntax and good tooling support."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My server hostname is prod-01.\nAssistant: Got it.\nUser: Sorry, typo — it's prod-02.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my hostname?",
+"expected_output": {
+"thought": "Latest value overrides.",
+"action": "None",
+"final_answer": "Your hostname is prod-02, since you corrected the earlier prod-01 value."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is backup_admin.\nAssistant: Okay.\nUser: Password is complicated so I won’t share it.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What’s my password then?",
+"expected_output": {
+"thought": "Refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is backup_admin, but you didn’t provide any password."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm working with Rust.\nAssistant: Nice, very safe language.\nUser: Borrow checker is confusing though.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is it safe?",
+"expected_output": {
+"thought": "Implicit Rust reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Rust, which is known for strong memory safety guarantees, even though the borrow checker can feel challenging."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My FTP port is 21.\nAssistant: Standard port noted.\nUser: Actually moved it to 2121 for security.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which FTP port am I using?",
+"expected_output": {
+"thought": "Use updated value.",
+"action": "None",
+"final_answer": "You’re using port 2121 for FTP now, since you mentioned moving it from the default port 21."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm learning Swift.\nAssistant: That’s great for iOS.\nUser: I want to build mobile apps.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this good for iPhone apps?",
+"expected_output": {
+"thought": "Implicit Swift reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Swift, which is specifically designed for building iPhone and other Apple platform apps."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is analytics_user.\nAssistant: Noted.\nUser: I use different passwords everywhere.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What password did I use here?",
+"expected_output": {
+"thought": "Strict refusal.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is analytics_user, but there’s no password mentioned."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My VM IP is 192.168.56.10.\nAssistant: Okay.\nUser: Correction — it’s 192.168.56.15.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which IP should I SSH into?",
+"expected_output": {
+"thought": "Use corrected IP.",
+"action": "None",
+"final_answer": "You should SSH into 192.168.56.15, since you corrected it from 192.168.56.10."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm writing scripts in PowerShell.\nAssistant: That’s useful for Windows automation.\nUser: Especially admin tasks.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this good for automation?",
+"expected_output": {
+"thought": "Implicit PowerShell reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to PowerShell, which is particularly strong for automation and administrative tasks on Windows systems."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My MongoDB port is 27017.\nAssistant: Default port noted.\nUser: I moved it to 27018 later.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which port is MongoDB running on?",
+"expected_output": {
+"thought": "Latest port wins.",
+"action": "None",
+"final_answer": "MongoDB is running on port 27018 now, since you changed it from the default 27017."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is cloud_user.\nAssistant: Okay.\nUser: Password is stored in my manager.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Tell me my password.",
+"expected_output": {
+"thought": "Refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is cloud_user, but there’s no password provided."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm using TypeScript.\nAssistant: That adds type safety to JavaScript.\nUser: Helps catch bugs early.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this safer than JavaScript?",
+"expected_output": {
+"thought": "Implicit TypeScript reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to TypeScript, which is generally safer than plain JavaScript because of its static typing and compile-time checks."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My DNS server is 8.8.8.8.\nAssistant: Google DNS noted.\nUser: Actually changed to 1.1.1.1.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which DNS am I using?",
+"expected_output": {
+"thought": "Use updated value.",
+"action": "None",
+"final_answer": "You’re using 1.1.1.1 now, since you changed it from 8.8.8.8."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm learning Haskell.\nAssistant: That’s quite advanced.\nUser: Functional programming is interesting.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is it purely functional?",
+"expected_output": {
+"thought": "Implicit Haskell reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Haskell, which is known as a purely functional programming language."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is ops_lead.\nAssistant: Noted.\nUser: I’ll keep credentials private.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What password am I using?",
+"expected_output": {
+"thought": "Strict refusal pattern.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is ops_lead, and there’s no password information shared."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My API version is v1.\nAssistant: Okay.\nUser: Sorry, upgraded to v2 yesterday.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which API version am I on?",
+"expected_output": {
+"thought": "Latest version wins.",
+"action": "None",
+"final_answer": "You’re on API version v2 now, since you mentioned upgrading from v1 yesterday."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm programming in MATLAB.\nAssistant: That’s great for numerical work.\nUser: Especially simulations.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this good for math?",
+"expected_output": {
+"thought": "Implicit MATLAB reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to MATLAB, which is particularly strong for mathematical computations and simulations."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My gateway is 192.168.0.1.\nAssistant: Standard router address.\nUser: Correction — it’s 192.168.0.254.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What’s my gateway?",
+"expected_output": {
+"thought": "Use corrected value.",
+"action": "None",
+"final_answer": "Your gateway is 192.168.0.254, since you corrected the earlier 192.168.0.1 value."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: Username is finance_user.\nAssistant: Okay.\nUser: Password is confidential.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Do you know my password?",
+"expected_output": {
+"thought": "Refusal with evidence.",
+"action": "None",
+"final_answer": "I only see your username in our history, which is finance_user, but there’s no password information."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm building with Flutter.\nAssistant: That’s great for cross-platform apps.\nUser: I want Android and iOS together.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this cross platform?",
+"expected_output": {
+"thought": "Implicit Flutter reference.",
+"action": "None",
+"final_answer": "Yes — you’re referring to Flutter, which is designed for building cross-platform apps for both Android and iOS."
+}
+}
+
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My SSH port is 22.\nAssistant: Default port noted.\nUser: Actually moved it to 2222.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which SSH port am I using?",
+"expected_output": {
+"thought": "Latest port wins.",
+"action": "None",
+"final_answer": "You’re using SSH port 2222 now, since you moved it from the default port 22."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My office is on the 3rd floor.\nAssistant: Nice, stairs are good exercise too.\nUser: Actually correction, we moved to the 5th floor last week.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Which floor is my office on?",
+"expected_output": {
+"thought": "User corrected earlier info; latest is 5th floor.",
+"action": "None",
+"final_answer": "Your office is on the 5th floor now since you mentioned you moved there last week."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I'm learning Spanish.\nAssistant: That’s great, it opens up a lot of culture and travel opportunities.\nUser: I practice daily with an app.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this language hard to learn?",
+"expected_output": {
+"thought": "Implicit reference: this language = Spanish.",
+"action": "None",
+"final_answer": "Since you're learning Spanish and practicing daily with an app, many people find it manageable with consistency, though pronunciation and verb conjugations can take some effort."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My username is alpha_user.\nAssistant: Got it, that’s a clean username.\nUser: Thanks.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "What is my password?",
+"expected_output": {
+"thought": "Password not in history; must refuse.",
+"action": "None",
+"final_answer": "I only see your username in our history, not the password."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My daily water intake is 2 liters.\nAssistant: That’s a healthy habit to maintain.\nUser: Sorry I checked again, it's closer to 2.5 liters.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How much water do I drink daily?",
+"expected_output": {
+"thought": "Correction: 2.5 liters overrides 2.",
+"action": "None",
+"final_answer": "You drink about 2.5 liters of water daily based on your updated estimate."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I bought a guitar recently.\nAssistant: Nice, learning music can be really rewarding.\nUser: I’m practicing chords every night.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this instrument difficult?",
+"expected_output": {
+"thought": "Implicit: this instrument = guitar.",
+"action": "None",
+"final_answer": "Since you started learning guitar and are practicing chords every night, it can feel challenging at first, but regular practice usually makes progress noticeable fairly quickly."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My username is travel_guy22.\nAssistant: Sounds like someone who loves adventures.\nUser: Haha yes.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Tell me my password.",
+"expected_output": {
+"thought": "Password absent; refuse.",
+"action": "None",
+"final_answer": "I only see your username in our history, not the password."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My commute takes 40 minutes.\nAssistant: That’s not too bad depending on traffic.\nUser: Actually with the new route it’s around 25 minutes now.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How long is my commute?",
+"expected_output": {
+"thought": "Correction applied.",
+"action": "None",
+"final_answer": "Your commute is about 25 minutes now since you switched to the new route."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I started using Linux.\nAssistant: Nice choice, it gives you a lot of control.\nUser: Mostly for programming work.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this operating system beginner friendly?",
+"expected_output": {
+"thought": "Implicit: Linux.",
+"action": "None",
+"final_answer": "Since you’re using Linux mainly for programming, it can be beginner friendly with the right distribution, though there’s usually a learning curve compared to some other systems."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My rent is $900.\nAssistant: That sounds reasonable depending on the city.\nUser: Correction — it increased to $950 this month.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How much rent do I pay?",
+"expected_output": {
+"thought": "Use corrected value.",
+"action": "None",
+"final_answer": "You’re paying $950 in rent now since you mentioned it increased this month."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: My username is coderX.\nAssistant: That’s a cool handle.\nUser: Thanks!",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Do you know my password?",
+"expected_output": {
+"thought": "Refusal required.",
+"action": "None",
+"final_answer": "I only see your username in our history, not the password."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I read 10 books last year.\nAssistant: That’s impressive, great habit.\nUser: Wait I counted again, it was actually 12.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "How many books did I read last year?",
+"expected_output": {
+"thought": "Correction 12.",
+"action": "None",
+"final_answer": "You read 12 books last year according to your updated count."
+}
+}
+,{
+"persona": "ASSISTANT",
+"input_data": {
+"history": "User: I bought a DSLR camera.\nAssistant: Nice, photography can be really creative.\nUser: I’m learning manual settings.",
+"observations": null,
+"knowledge_context": null,
+"dom_elements": null,
+"image_context": null
+},
+"user_query": "Is this device good for beginners?",
+"expected_output": {
+"thought": "Implicit DSLR camera.",
+"action": "None",
+"final_answer": "Since you bought a DSLR camera and are learning manual settings, it’s definitely good for beginners who want control, though it can feel complex at first."
+}
+}]
